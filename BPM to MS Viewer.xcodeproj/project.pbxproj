@@ -11,6 +11,7 @@
 		5FA7B49D2929A907009BB2B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA7B49C2929A907009BB2B8 /* ContentView.swift */; };
 		5FA7B49F2929A908009BB2B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA7B49E2929A908009BB2B8 /* Assets.xcassets */; };
 		5FA7B4A22929A908009BB2B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA7B4A12929A908009BB2B8 /* Preview Assets.xcassets */; };
+		5FA7B4AA2929A919009BB2B8 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA7B4A92929A919009BB2B8 /* Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		5FA7B49E2929A908009BB2B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FA7B4A12929A908009BB2B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5FA7B4A32929A908009BB2B8 /* BPM_to_MS_Viewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BPM_to_MS_Viewer.entitlements; sourceTree = "<group>"; };
+		5FA7B4A92929A919009BB2B8 /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				5FA7B49A2929A907009BB2B8 /* BPM_to_MS_ViewerApp.swift */,
 				5FA7B49C2929A907009BB2B8 /* ContentView.swift */,
+				5FA7B4A92929A919009BB2B8 /* Converter.swift */,
 				5FA7B49E2929A908009BB2B8 /* Assets.xcassets */,
 				5FA7B4A32929A908009BB2B8 /* BPM_to_MS_Viewer.entitlements */,
 				5FA7B4A02929A908009BB2B8 /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FA7B49D2929A907009BB2B8 /* ContentView.swift in Sources */,
+				5FA7B4AA2929A919009BB2B8 /* Converter.swift in Sources */,
 				5FA7B49B2929A907009BB2B8 /* BPM_to_MS_ViewerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "BPM to MS Viewer/BPM_to_MS_Viewer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -274,6 +279,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BPM to MS Viewer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "BPM to MS Viewer/BPM_to_MS_Viewer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -301,6 +309,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BPM to MS Viewer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
